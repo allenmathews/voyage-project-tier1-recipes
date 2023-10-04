@@ -1,0 +1,29 @@
+Sprint #1 - Open Topic Session
+ 
+4th October 2023 / 6:00 PM GMT +8 (Taipei)
+ATTENDEES
+●	Andrei, Al, Helen, Shree
+AGENDA
+●	Discussion
+○	Topic & notes 
+We discussed:
+1.	Agile methodologies
+2.	We have chosen to go with github pages as the hosting site
+3.	Single github repo
+4.	Pen and paper
+5.	Mobile responsive
+
+•	HTML and CSS done by one team of 2 people
+•	JS done by team of 2 people
+
+•	HTML and CSS – Andrei and Helen
+•	JavaScript – Allen and Shree
+ACTION ITEMS
+1.	Who - Deadline - Task description
+
+
+Name	Deadline	Task
+Andrei	9th october	Wireframe, design
+Al	9th october	JS research
+Helen	9th october	Wireframe, design
+Shree	9th october	JS research
