@@ -1,19 +1,19 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import LandingPage from "./components/LandingPage";
-import FilterPage from "./pages/FilterPage";
-import ResultsPage from "./pages/ResultsPage";
+import React, { useState } from "react";
+import LandingPage from "./pages/LandingPage";
+import AllergyManagement from "./components/AllergyManagement";
 
-function App() {
+const App = () => {
+  const [savedAllergies, setSavedAllergies] = useState([]);
+
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/filter" element={<FilterPage />} />
-        <Route path="/results" element={<ResultsPage />} />
-      </Routes>
-    </Router>
+    <div>
+      <LandingPage savedAllergies={savedAllergies} />
+      <AllergyManagement
+        savedAllergies={savedAllergies}
+        setSavedAllergies={setSavedAllergies}
+      />
+    </div>
   );
-}
+};
 
 export default App;
